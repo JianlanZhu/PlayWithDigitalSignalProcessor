@@ -1,0 +1,7 @@
+------------------------------  DFT.pjt - Debug  ------------------------------
+"d:\ti_C5000\c5400\cgtools\bin\cl500" -g -q -fr"D:/ti_C5000/myprojects/DFT/Debug" -d"_DEBUG" -@"Debug.lkf" "dft.c"
+
+"d:\ti_C5000\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

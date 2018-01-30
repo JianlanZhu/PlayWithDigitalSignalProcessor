@@ -1,0 +1,4 @@
+-z -q -a -c -m"./Debug/DFT.map" -o"./Debug/DFT.out" -stack400 -w -x -i"d:/ti_C5000/C5400/bios/lib" -i"d:/ti_C5000/C5400/dsk5416/lib" -i"d:/ti_C5000/c5400/rtdx/lib" -i"d:/ti_C5000/c5400/xdais/lib" -i"d:/ti_C5000/c5400/cgtools/lib"
+"D:\ti_C5000\myprojects\DFT\Debug\dft.obj"
+"D:\ti_C5000\myprojects\DFT\rts.lib"
+"D:\ti_C5000\myprojects\DFT\INRAM.cmd"
