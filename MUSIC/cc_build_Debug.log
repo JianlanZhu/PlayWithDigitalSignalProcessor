@@ -1,0 +1,10 @@
+-----------------------------  music.pjt - Debug  -----------------------------
+"d:\ti_C5000\c5400\cgtools\bin\cl500" -g -q -fr"D:/TI_C5000/MYPROJECTS/MUSIC/Debug" -d"_DEBUG" -@"Debug.lkf" "CVECTORS.ASM"
+
+"d:\ti_C5000\c5400\cgtools\bin\cl500" -g -q -fr"D:/TI_C5000/MYPROJECTS/MUSIC/Debug" -d"_DEBUG" -@"Debug.lkf" "music.c"
+"music.c", line 272: warning: variable "temp" was set but never used
+
+"d:\ti_C5000\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

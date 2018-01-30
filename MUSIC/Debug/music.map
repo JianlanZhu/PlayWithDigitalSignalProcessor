@@ -1,0 +1,180 @@
+******************************************************************************
+         TMS320C54x COFF Linker PC Version 3.83                
+******************************************************************************
+>> Linked Mon Aug 15 18:04:52 2016
+
+OUTPUT FILE NAME:   <./Debug/music.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 000003c3
+
+
+MEMORY CONFIGURATION
+
+                  name            origin    length      used    attr    fill
+         ----------------------  --------  ---------  --------  ----  --------
+PAGE  0: RESEVE                  00000000   00000080  00000000  RWIX
+         VECT                    00000080   00000080  00000080  RWIX
+         PROG1                   00000100   00001200  000003cb  RWIX
+
+PAGE  1: RESEVE1                 00000000   00001300  00000000  RWIX
+         DARAM2                  00001300   00000400  00000400  RWIX
+         DARAM1                  00001700   00002b00  00000107  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.vectors   0    00000080    00000080     
+                  00000080    00000080     CVECTORS.obj (.vectors)
+
+.text      0    00000100    000003a1     
+                  00000100    000002c3     music.obj (.text)
+                  000003c3    0000004a     rts.lib : boot.obj (.text)
+                  0000040d    00000052             : exit.obj (.text)
+                  0000045f    00000020             : f_cmp.obj (.text)
+                  0000047f    0000001b             : f_utof.obj (.text)
+                  0000049a    00000007             : _lock.obj (.text)
+
+.cinit     0    000004a1    0000001c     
+                  000004a1    0000000c     music.obj (.cinit)
+                  000004ad    00000009     rts.lib : exit.obj (.cinit)
+                  000004b6    00000006             : _lock.obj (.cinit)
+                  000004bc    00000001     --HOLE-- [fill = 0]
+
+.switch    0    000004bd    0000000e     
+                  000004bd    0000000e     music.obj (.switch)
+
+.data      1    00001300    00000000     UNINITIALIZED
+
+.system    1    00001300    00000000     UNINITIALIZED
+
+.stack     1    00001300    00000400     UNINITIALIZED
+
+.const     1    00001700    000000dc     
+                  00001700    000000dc     music.obj (.const)
+
+.bss       1    000017dc    0000002b     UNINITIALIZED
+                  000017dc    00000006     music.obj (.bss)
+                  000017e2    00000023     rts.lib : exit.obj (.bss)
+                  00001805    00000002             : _lock.obj (.bss)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+000017dc   .bss
+00001300   .data
+00000100   .text
+0000045c   C$$EXIT
+0000045f   F$$COMPARE
+0000047f   F$$UTOF
+000017de   _AMPL
+00000268   _McBsp0_init
+000002c0   _ScanKey
+00000400   __STACK_SIZE
+000017dc   ___bss__
+000004a1   ___cinit__
+00001300   ___data__
+00001300   ___edata__
+00001807   ___end__
+000004a1   ___etext__
+ffffffff   ___pinit__
+00000100   ___text__
+00001803   __cleanup_ptr
+00001804   __dtors_ptr
+00000001   __lflags
+00001805   __lock
+0000049a   __nop
+0000049b   __register_lock
+0000049e   __register_unlock
+00001806   __unlock
+0000045c   _abort
+000017df   _amp
+0000043a   _atexit
+000003c3   _c_int00
+00000232   _clock_init
+00000306   _codec_ch0_in
+00000327   _delay
+0000040d   _exit
+000017e0   _f
+000017e1   _flag
+00000100   _main
+00001700   _music0
+0000170e   _music1
+0000024d   _read_subreg0
+000017dd   _s
+0000033e   _sound
+0000171a   _tian_f
+00001778   _tian_t
+000002f2   _timer0
+00000241   _timer_init
+000017dc   _tt
+0000025a   _write_subreg0
+000004a1   cinit
+00001300   edata
+00001807   end
+000004a1   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000001   __lflags
+00000100   ___text__
+00000100   .text
+00000100   _main
+00000232   _clock_init
+00000241   _timer_init
+0000024d   _read_subreg0
+0000025a   _write_subreg0
+00000268   _McBsp0_init
+000002c0   _ScanKey
+000002f2   _timer0
+00000306   _codec_ch0_in
+00000327   _delay
+0000033e   _sound
+000003c3   _c_int00
+00000400   __STACK_SIZE
+0000040d   _exit
+0000043a   _atexit
+0000045c   _abort
+0000045c   C$$EXIT
+0000045f   F$$COMPARE
+0000047f   F$$UTOF
+0000049a   __nop
+0000049b   __register_lock
+0000049e   __register_unlock
+000004a1   ___cinit__
+000004a1   ___etext__
+000004a1   cinit
+000004a1   etext
+00001300   ___data__
+00001300   ___edata__
+00001300   edata
+00001300   .data
+00001700   _music0
+0000170e   _music1
+0000171a   _tian_f
+00001778   _tian_t
+000017dc   .bss
+000017dc   ___bss__
+000017dc   _tt
+000017dd   _s
+000017de   _AMPL
+000017df   _amp
+000017e0   _f
+000017e1   _flag
+00001803   __cleanup_ptr
+00001804   __dtors_ptr
+00001805   __lock
+00001806   __unlock
+00001807   ___end__
+00001807   end
+ffffffff   pinit
+ffffffff   ___pinit__
+
+[53 symbols]

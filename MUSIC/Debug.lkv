@@ -1,0 +1,6 @@
+-z -q -c -m"./Debug/music.map" -o"./Debug/music.out" -x -i"d:/ti_C5000/C5400/bios/lib" -i"d:/ti_C5000/C5400/dsk5416/lib" -i"d:/ti_C5000/c5400/rtdx/lib" -i"d:/ti_C5000/c5400/xdais/lib" -i"d:/ti_C5000/c5400/cgtools/lib"
+"D:\TI_C5000\MYPROJECTS\MUSIC\Debug\CVECTORS.obj"
+"D:\TI_C5000\MYPROJECTS\MUSIC\Debug\music.obj"
+"D:\ti_C5000\myprojects\MUSIC\rts.lib"
+"D:\ti_C5000\myprojects\MUSIC\rts_ext.lib"
+"D:\ti_C5000\myprojects\MUSIC\INRAM.cmd"
